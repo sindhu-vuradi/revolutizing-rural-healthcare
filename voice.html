@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recognition</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Speak Your Symptoms</h2>
+        <p>Select Language:</p>
+        <select id="language-select">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="te-IN">Telugu</option>
+            <option value="ta-IN">Tamil</option>
+        </select>
+        <button id="start-voice">Start Voice Recognition</button>
+        <p id="recognized-text">Your symptoms will appear here...</p>
+        
+        <!-- Proceed to Medicine Suggestions -->
+        <a href="medicine.html">
+            <button>Get Medicine Suggestions</button>
+        </a>
+    </div>
+
+    <script src="js/voice.js"></script>
+</body>
+</html>
